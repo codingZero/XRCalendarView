@@ -1,0 +1,402 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9912A3141D1CC71300144E3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A3131D1CC71300144E3D /* main.m */; };
+		9912A32E1D1CC72400144E3D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A3161D1CC72400144E3D /* ViewController.m */; };
+		9912A32F1D1CC72400144E3D /* DateItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A31A1D1CC72400144E3D /* DateItem.m */; };
+		9912A3301D1CC72400144E3D /* DateItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9912A31B1D1CC72400144E3D /* DateItem.xib */; };
+		9912A3311D1CC72400144E3D /* MonthTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A31D1D1CC72400144E3D /* MonthTableViewCell.m */; };
+		9912A3321D1CC72400144E3D /* TimeItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A31F1D1CC72400144E3D /* TimeItem.m */; };
+		9912A3331D1CC72400144E3D /* DateTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A3211D1CC72400144E3D /* DateTool.m */; };
+		9912A3341D1CC72400144E3D /* moon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3231D1CC72400144E3D /* moon@2x.png */; };
+		9912A3351D1CC72400144E3D /* moon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3241D1CC72400144E3D /* moon@3x.png */; };
+		9912A3361D1CC72400144E3D /* sun@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3251D1CC72400144E3D /* sun@2x.png */; };
+		9912A3371D1CC72400144E3D /* sun@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3261D1CC72400144E3D /* sun@3x.png */; };
+		9912A3381D1CC72400144E3D /* timecolor_blue@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3271D1CC72400144E3D /* timecolor_blue@2x.png */; };
+		9912A3391D1CC72400144E3D /* timecolor_blue@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3281D1CC72400144E3D /* timecolor_blue@3x.png */; };
+		9912A33A1D1CC72400144E3D /* MonthCoverView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A32A1D1CC72400144E3D /* MonthCoverView.m */; };
+		9912A33B1D1CC72400144E3D /* XRCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A32C1D1CC72400144E3D /* XRCalendarView.m */; };
+		9912A33C1D1CC72400144E3D /* XRCalendarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9912A32D1D1CC72400144E3D /* XRCalendarView.xib */; };
+		9912A3441D1CC73100144E3D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9912A33D1D1CC73100144E3D /* Assets.xcassets */; };
+		9912A3471D1CC73100144E3D /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3431D1CC73100144E3D /* Info.plist */; };
+		9912A34C1D1CC74400144E3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912A3481D1CC74400144E3D /* LaunchScreen.storyboard */; };
+		9912A34D1D1CC74400144E3D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9912A34A1D1CC74400144E3D /* Main.storyboard */; };
+		9912A3501D1CC74E00144E3D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9912A34F1D1CC74E00144E3D /* AppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9912A3131D1CC71300144E3D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = XRCalendarViewDemo/main.m; sourceTree = SOURCE_ROOT; };
+		9912A3151D1CC72400144E3D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = XRCalendarViewDemo/ViewController.h; sourceTree = SOURCE_ROOT; };
+		9912A3161D1CC72400144E3D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = XRCalendarViewDemo/ViewController.m; sourceTree = SOURCE_ROOT; };
+		9912A3191D1CC72400144E3D /* DateItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateItem.h; sourceTree = "<group>"; };
+		9912A31A1D1CC72400144E3D /* DateItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateItem.m; sourceTree = "<group>"; };
+		9912A31B1D1CC72400144E3D /* DateItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DateItem.xib; sourceTree = "<group>"; };
+		9912A31C1D1CC72400144E3D /* MonthTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthTableViewCell.h; sourceTree = "<group>"; };
+		9912A31D1D1CC72400144E3D /* MonthTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthTableViewCell.m; sourceTree = "<group>"; };
+		9912A31E1D1CC72400144E3D /* TimeItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeItem.h; sourceTree = "<group>"; };
+		9912A31F1D1CC72400144E3D /* TimeItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeItem.m; sourceTree = "<group>"; };
+		9912A3201D1CC72400144E3D /* DateTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTool.h; sourceTree = "<group>"; };
+		9912A3211D1CC72400144E3D /* DateTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTool.m; sourceTree = "<group>"; };
+		9912A3231D1CC72400144E3D /* moon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moon@2x.png"; sourceTree = "<group>"; };
+		9912A3241D1CC72400144E3D /* moon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "moon@3x.png"; sourceTree = "<group>"; };
+		9912A3251D1CC72400144E3D /* sun@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun@2x.png"; sourceTree = "<group>"; };
+		9912A3261D1CC72400144E3D /* sun@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sun@3x.png"; sourceTree = "<group>"; };
+		9912A3271D1CC72400144E3D /* timecolor_blue@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timecolor_blue@2x.png"; sourceTree = "<group>"; };
+		9912A3281D1CC72400144E3D /* timecolor_blue@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "timecolor_blue@3x.png"; sourceTree = "<group>"; };
+		9912A3291D1CC72400144E3D /* MonthCoverView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MonthCoverView.h; sourceTree = "<group>"; };
+		9912A32A1D1CC72400144E3D /* MonthCoverView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MonthCoverView.m; sourceTree = "<group>"; };
+		9912A32B1D1CC72400144E3D /* XRCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCalendarView.h; sourceTree = "<group>"; };
+		9912A32C1D1CC72400144E3D /* XRCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCalendarView.m; sourceTree = "<group>"; };
+		9912A32D1D1CC72400144E3D /* XRCalendarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XRCalendarView.xib; sourceTree = "<group>"; };
+		9912A33D1D1CC73100144E3D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = XRCalendarViewDemo/Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		9912A3431D1CC73100144E3D /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = XRCalendarViewDemo/Info.plist; sourceTree = SOURCE_ROOT; };
+		9912A3491D1CC74400144E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = XRCalendarViewDemo/Base.lproj/LaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
+		9912A34B1D1CC74400144E3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = XRCalendarViewDemo/Base.lproj/Main.storyboard; sourceTree = SOURCE_ROOT; };
+		9912A34E1D1CC74E00144E3D /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = XRCalendarViewDemo/AppDelegate.h; sourceTree = SOURCE_ROOT; };
+		9912A34F1D1CC74E00144E3D /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = XRCalendarViewDemo/AppDelegate.m; sourceTree = SOURCE_ROOT; };
+		998B52051D1BE5C700945ED2 /* XRCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XRCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		998B52021D1BE5C700945ED2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9912A3171D1CC72400144E3D /* XRCalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				9912A3181D1CC72400144E3D /* Cell */,
+				9912A3201D1CC72400144E3D /* DateTool.h */,
+				9912A3211D1CC72400144E3D /* DateTool.m */,
+				9912A3221D1CC72400144E3D /* images */,
+				9912A3291D1CC72400144E3D /* MonthCoverView.h */,
+				9912A32A1D1CC72400144E3D /* MonthCoverView.m */,
+				9912A32B1D1CC72400144E3D /* XRCalendarView.h */,
+				9912A32C1D1CC72400144E3D /* XRCalendarView.m */,
+				9912A32D1D1CC72400144E3D /* XRCalendarView.xib */,
+			);
+			name = XRCalendarView;
+			path = XRCalendarViewDemo/XRCalendarView;
+			sourceTree = SOURCE_ROOT;
+		};
+		9912A3181D1CC72400144E3D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9912A3191D1CC72400144E3D /* DateItem.h */,
+				9912A31A1D1CC72400144E3D /* DateItem.m */,
+				9912A31B1D1CC72400144E3D /* DateItem.xib */,
+				9912A31C1D1CC72400144E3D /* MonthTableViewCell.h */,
+				9912A31D1D1CC72400144E3D /* MonthTableViewCell.m */,
+				9912A31E1D1CC72400144E3D /* TimeItem.h */,
+				9912A31F1D1CC72400144E3D /* TimeItem.m */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9912A3221D1CC72400144E3D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				9912A3231D1CC72400144E3D /* moon@2x.png */,
+				9912A3241D1CC72400144E3D /* moon@3x.png */,
+				9912A3251D1CC72400144E3D /* sun@2x.png */,
+				9912A3261D1CC72400144E3D /* sun@3x.png */,
+				9912A3271D1CC72400144E3D /* timecolor_blue@2x.png */,
+				9912A3281D1CC72400144E3D /* timecolor_blue@3x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		998B51FC1D1BE5C700945ED2 = {
+			isa = PBXGroup;
+			children = (
+				998B52071D1BE5C700945ED2 /* XRCalendar */,
+				998B52061D1BE5C700945ED2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		998B52061D1BE5C700945ED2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				998B52051D1BE5C700945ED2 /* XRCalendar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		998B52071D1BE5C700945ED2 /* XRCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				9912A3171D1CC72400144E3D /* XRCalendarView */,
+				9912A34E1D1CC74E00144E3D /* AppDelegate.h */,
+				9912A34F1D1CC74E00144E3D /* AppDelegate.m */,
+				9912A3151D1CC72400144E3D /* ViewController.h */,
+				9912A3161D1CC72400144E3D /* ViewController.m */,
+				9912A33D1D1CC73100144E3D /* Assets.xcassets */,
+				9912A3431D1CC73100144E3D /* Info.plist */,
+				9912A3481D1CC74400144E3D /* LaunchScreen.storyboard */,
+				9912A34A1D1CC74400144E3D /* Main.storyboard */,
+				998B52081D1BE5C700945ED2 /* Supporting Files */,
+			);
+			path = XRCalendar;
+			sourceTree = "<group>";
+		};
+		998B52081D1BE5C700945ED2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9912A3131D1CC71300144E3D /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		998B52041D1BE5C700945ED2 /* XRCalendar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 998B521C1D1BE5C700945ED2 /* Build configuration list for PBXNativeTarget "XRCalendar" */;
+			buildPhases = (
+				998B52011D1BE5C700945ED2 /* Sources */,
+				998B52021D1BE5C700945ED2 /* Frameworks */,
+				998B52031D1BE5C700945ED2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XRCalendar;
+			productName = XRCalendar;
+			productReference = 998B52051D1BE5C700945ED2 /* XRCalendar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		998B51FD1D1BE5C700945ED2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "肖睿";
+				TargetAttributes = {
+					998B52041D1BE5C700945ED2 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5N68TQ399B;
+					};
+				};
+			};
+			buildConfigurationList = 998B52001D1BE5C700945ED2 /* Build configuration list for PBXProject "XRCalendar" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 998B51FC1D1BE5C700945ED2;
+			productRefGroup = 998B52061D1BE5C700945ED2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				998B52041D1BE5C700945ED2 /* XRCalendar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		998B52031D1BE5C700945ED2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9912A3301D1CC72400144E3D /* DateItem.xib in Resources */,
+				9912A3361D1CC72400144E3D /* sun@2x.png in Resources */,
+				9912A33C1D1CC72400144E3D /* XRCalendarView.xib in Resources */,
+				9912A34D1D1CC74400144E3D /* Main.storyboard in Resources */,
+				9912A3371D1CC72400144E3D /* sun@3x.png in Resources */,
+				9912A3351D1CC72400144E3D /* moon@3x.png in Resources */,
+				9912A3341D1CC72400144E3D /* moon@2x.png in Resources */,
+				9912A3471D1CC73100144E3D /* Info.plist in Resources */,
+				9912A3381D1CC72400144E3D /* timecolor_blue@2x.png in Resources */,
+				9912A3441D1CC73100144E3D /* Assets.xcassets in Resources */,
+				9912A34C1D1CC74400144E3D /* LaunchScreen.storyboard in Resources */,
+				9912A3391D1CC72400144E3D /* timecolor_blue@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		998B52011D1BE5C700945ED2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9912A33A1D1CC72400144E3D /* MonthCoverView.m in Sources */,
+				9912A3311D1CC72400144E3D /* MonthTableViewCell.m in Sources */,
+				9912A3501D1CC74E00144E3D /* AppDelegate.m in Sources */,
+				9912A33B1D1CC72400144E3D /* XRCalendarView.m in Sources */,
+				9912A3331D1CC72400144E3D /* DateTool.m in Sources */,
+				9912A32E1D1CC72400144E3D /* ViewController.m in Sources */,
+				9912A3321D1CC72400144E3D /* TimeItem.m in Sources */,
+				9912A32F1D1CC72400144E3D /* DateItem.m in Sources */,
+				9912A3141D1CC71300144E3D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9912A3481D1CC74400144E3D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9912A3491D1CC74400144E3D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		9912A34A1D1CC74400144E3D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9912A34B1D1CC74400144E3D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		998B521A1D1BE5C700945ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		998B521B1D1BE5C700945ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		998B521D1D1BE5C700945ED2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/XRCalendarViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaorui.NB.XRCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		998B521E1D1BE5C700945ED2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/XRCalendarViewDemo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaorui.NB.XRCalendar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		998B52001D1BE5C700945ED2 /* Build configuration list for PBXProject "XRCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998B521A1D1BE5C700945ED2 /* Debug */,
+				998B521B1D1BE5C700945ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		998B521C1D1BE5C700945ED2 /* Build configuration list for PBXNativeTarget "XRCalendar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				998B521D1D1BE5C700945ED2 /* Debug */,
+				998B521E1D1BE5C700945ED2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 998B51FD1D1BE5C700945ED2 /* Project object */;
+}
