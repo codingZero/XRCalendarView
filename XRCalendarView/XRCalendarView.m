@@ -88,7 +88,7 @@ static NSString *dateCell = @"dateCell";
     self.frame = frame;
 
     _selectDate = -1;
-    _firstWeekday = [DateTool getWeekdayFromDate:self.startDate] - 1;
+    
     [self setUpHourCollectionView];
     [self setUpminuteView];
     [self setUpDateCollectionView];
@@ -98,6 +98,7 @@ static NSString *dateCell = @"dateCell";
 
 
 - (void)layoutSubviews {
+    _firstWeekday = [DateTool getWeekdayFromDate:self.startDate] - 1;
      [self.monthCoverView updateWithFirstDate:self.startDate lastDate:self.endDate itemHeight:45.5];
 }
 
@@ -218,7 +219,7 @@ static NSString *dateCell = @"dateCell";
 #pragma mark- UICollectionViewDataSource
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
     NSInteger days = [DateTool getDaysFromDate:self.startDate toDate:self.endDate];
-    return collectionView == _hourCollectionView?self.hours.count: days + _firstWeekday;
+    return collectionView == _hourCollectionView?self.hours.count: days + 1 + _firstWeekday;
 }
 
 - (UICollectionViewCell *)collectionView:(UICollectionView *)collectionView cellForItemAtIndexPath:(NSIndexPath *)indexPath {
